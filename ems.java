@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class ems {
     public static void main(String[] args) {
     	System.out.println("Employee Management System");
-    	System.out.println("");
+    	System.out.println("1. Create");
+    	System.out.println("2. Display");
+    	System.out.println("3. Raise Salary");
+    	System.out.println("4. Exit");
+
         Scanner sc = new Scanner(System.in);
 
         String name,choice;
